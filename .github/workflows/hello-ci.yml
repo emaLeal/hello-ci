@@ -10,8 +10,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
-    - name: Say Hello
-      run: echo "CI esta funcionando"
+    - name: Say Hello(will fail)
+      run: exit 1
 
     - name: Show runner info
       run: |
